@@ -67,8 +67,11 @@ body{
 }
 .pg-2{
     background: url('../images/2nd-page.png');
-    height: 1650px; 
+    height: 1750px; 
     background-size: cover;
+    border: 2px solid #8600F0;
+    border-radius: 20px;
+    
 }
 .footer-a{
     text-decoration: none;
