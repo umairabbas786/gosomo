@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-*{
-    padding: 0%;
-    margin: 0%;
-}
 body{
     /* background-image: linear-gradient(135deg,#8600F0,#000000 15%); */
     background-color: green;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: 'Poppins', sans-serif;}
 .purple{
     background: -webkit-linear-gradient(#8600F0, #FF3269);
     -webkit-background-clip: text;
@@ -15,6 +10,9 @@ body{
 }
 .top-sec{
     background-image: linear-gradient(135deg,#8600F0,#000000 15%);
+}
+.main-sec{
+    min-height: 80vh;
 }
 .game-h{
     font-style: normal;
@@ -31,6 +29,10 @@ body{
 .main-right{
     background-image: url('../images/main.png');
     background-size: cover;
+    max-height: 85vh;
+}
+.main-left{
+    min-height: 80vh;
 }
 .main-para{
     font-style: normal;
