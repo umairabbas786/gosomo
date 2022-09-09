@@ -33,11 +33,17 @@ body{
 }
 .top-sec{
     background-image: linear-gradient(135deg,#8600F0,#000000 15%);
+    min-height: 80vh;
+    max-height: 80vh;
 }
 .top-sec1{
     background-image: linear-gradient(#000000 30%,rgba(134,0,240,0.2), #000000 70%);
 }
 .main-sec{
+    max-height: 80vh;
+}
+.main-left{
+    min-height: 80vh;
     max-height: 80vh;
 }
 .game-h{
@@ -77,11 +83,22 @@ body{
 }
 .pg-2{
     background: url('../images/2nd-page.png');
-    height: 1750px; 
+    height: auto!important;
     background-size: cover;
     border: 2px solid #8600F0;
     border-radius: 20px;
-    
+}
+.texting{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+@media only screen and (max-width: 600px) {
+    .pg-2{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
 }
 .con-arcade{
     border: 2px solid #8600F0;
