@@ -4,7 +4,10 @@ body{
     background-color: black;
     font-family: 'Poppins', sans-serif;}
     /* SCROLLBAR  */
-
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 /* width */
 ::-webkit-scrollbar {
     width: 15px;
