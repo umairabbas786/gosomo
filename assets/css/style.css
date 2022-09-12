@@ -133,10 +133,6 @@ body{
 
 
 .con-arcade{
-    /* border: 2px solid transparent;
-background: linear-gradient(#000, #000) padding-box,
-  linear-gradient(to right, #8600F0, #FF3269) border-box;
-  border-radius: 10%; */
   box-sizing: border-box;
   background: #000;
   background-clip: padding-box;
@@ -146,15 +142,15 @@ background: linear-gradient(#000, #000) padding-box,
 }
 .con-arcade::before{
     content: "";
-  position: absolute;
-  border-radius: inherit;
-  background: linear-gradient(to right, #8600F0, #FF3269);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  margin: -5px;
+    position: absolute;
+    border-radius: inherit;
+    background: linear-gradient(to right, #8600F0, #FF3269);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
 
 }
 .footer-a{
