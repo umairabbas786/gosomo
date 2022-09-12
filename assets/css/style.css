@@ -59,6 +59,19 @@ body{
     font-size: 64px;
     line-height: 74px;
     color: #fff;
+   
+}
+.game-h1{
+    position: absolute;
+    width: 615px;
+    height: 222px;
+    left: 108px;
+    top: 212px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 74px;
+    color: #fff;
 }
 .arcade-h{
     font-style: normal;
@@ -82,11 +95,18 @@ body{
     max-height: 80vh;
 }
 .main-para{
+    position: absolute;
+    width: 620px;
+    height: 84px;
+    left: 108px;
+    top: 458px;
+    
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    color: rgba(255, 255, 255, 0.8);
+    color: #FFFFFFCC;
 }
 .pg-2{
     background: url('../images/2nd-page.png'),url('../images/ellipse.png');
@@ -113,8 +133,10 @@ body{
 
 
 .con-arcade{
-    border: 2px solid #8600F0;
-    border-radius: 30px;
+   background: linear-gradient(#000000, #000000) padding-box,
+  linear-gradient(to right, #8600F0, #FF3269) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
 }
 .footer-a{
     text-decoration: none;
