@@ -8,6 +8,10 @@ body{
         max-width: 100%;
         overflow-x: hidden;
     }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
 /* width */
 ::-webkit-scrollbar {
     width: 15px;
@@ -75,15 +79,42 @@ body{
 }
 .arcade-h{
     color: #fff;
-    font-size: 64px;
+    font-size: 45px;
     font-weight: 900;
-    line-height: 74px;
+    line-height: 45px;
     letter-spacing: 0em;
     text-align: center;
 }
+.arcade-p{
+    font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+/* or 156% */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.8);
+}
 .btn-view1{
-    border: 2px solid #8600F0;
-    border-radius: 20px;
+    box-sizing: border-box;
+  background: #000;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 2em;
+  position: relative;
+
+}
+.btn-view1::before{
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    background: linear-gradient(to right, #8600F0, #FF3269);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
 
 }
 .main-right{
@@ -138,7 +169,7 @@ body{
   background: #000;
   background-clip: padding-box;
   border: solid 5px transparent;
-  border-radius: 1em;
+  border-radius: 2em;
   position: relative;
 }
 .con-arcade::before{
@@ -163,7 +194,10 @@ body{
     position: relative;
 }
 .image-rings{
-    margin-top: -80px;
+    margin-top: -95px;
+}
+.image-rings2{
+    margin-top: -25px;
 }
 .active{
     border-bottom: 2px solid #aa11b8;
@@ -174,4 +208,7 @@ body{
     .footer-bg{
         background-image: url('../images/ellipse.png');
         background-size: cover;
+    }
+    .foot-img{
+        margin-left: -20px;
     }
