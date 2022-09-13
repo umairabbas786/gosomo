@@ -53,10 +53,7 @@ body{
 .main-sec{
     max-height: 80vh;
 }
-.main-left{
-    min-height: 80vh;
-    max-height: 80vh;
-}
+
 .game-h{
     font-style: normal;
     font-weight: 900;
@@ -65,6 +62,7 @@ body{
     color: #fff;
    
 }
+
 .game-h1{
     position: absolute;
     width: 615px;
@@ -85,13 +83,19 @@ body{
     letter-spacing: 0em;
     text-align: center;
 }
+.arcade-h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 74px;
+    letter-spacing: 0em;
+}
 .arcade-p{
     font-weight: 500;
-font-size: 15px;
-line-height: 25px;
+font-size: 18px;
+line-height: 28px;
 /* or 156% */
 
-text-align: center;
 
 color: rgba(255, 255, 255, 0.8);
 }
@@ -118,14 +122,11 @@ color: rgba(255, 255, 255, 0.8);
 
 }
 .main-right{
-    background-image: url('../images/main.png');
     background-size: cover;
     max-height: 85vh;
     background-position: center;
 }
-.main-left{
-    max-height: 80vh;
-}
+
 .main-para{
     position: absolute;
     width: 620px;
@@ -140,14 +141,16 @@ color: rgba(255, 255, 255, 0.8);
     line-height: 28px;
     color: #FFFFFFCC;
 }
-.pg-2{
-    background: url('../images/2nd-page.png'),url('../images/ellipse.png');
-   
-    height: auto!important;
-    background-size: cover;
-    border: 2px solid #8600F0;
-    border-radius: 20px;
+@media (min-width: 992px) {
+    .pg-4{
+        background: url('../images/2nd-page.png'),url('../images/ellipse.png');
+       
+        height: auto!important;
+        background-size: cover;
+    
+    }
 }
+
 .pg-3{
     height: auto!important;
     background-size: cover;
@@ -160,10 +163,36 @@ color: rgba(255, 255, 255, 0.8);
     line-height: 48px;
 }
 .texting1{
-   font-size: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    
+    text-align: center;
+    letter-spacing: -0.5px;
 }
+.pg-2{
+    box-sizing: border-box;
+    background: #000;
+    background-clip: padding-box;
+    border: solid 5px transparent;
+    border-radius: 2em;
+    position: relative;
+  }
+  .pg-2::before{
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    background: linear-gradient(to right, #8600F0, #FF3269);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
 
-
+}
+}
 .con-arcade{
   box-sizing: border-box;
   background: #000;
