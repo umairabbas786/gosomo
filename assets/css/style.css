@@ -212,3 +212,30 @@ color: rgba(255, 255, 255, 0.8);
     .foot-img{
         margin-left: -20px;
     }
+    .modal{
+z-index: 99999;    }
+.btn-close{
+    color: white !important;
+}
+.modal-list{
+    list-style: none;
+}
+.modal-item{
+    text-decoration: none;
+    color: white;
+
+}
+.modal-item:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+.line-breaker{
+    color: white;
+    border-top: 2px solid white;
+}
+.modal-btn{
+    border: 2px solid #8600F0;
+    border-radius: 30px;
+}
