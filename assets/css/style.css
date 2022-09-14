@@ -84,14 +84,30 @@ body{
     text-align: center;
 }
 .arcade-h1{
-    color: #fff;
-    font-size: 64px;
+    width: 615px;
+    height: 222px;
+    left: 108px;
+    top: 212px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 900;
+    font-size: 64px;
     line-height: 74px;
-    letter-spacing: 0em;
+    /* or 116% */
+    
+    
+    color: #FFFFFF;
 }
 .arcade-p{
-    font-weight: 500;
+width: 620px;
+height: 84px;
+left: 108px;
+top: 458px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
 font-size: 18px;
 line-height: 28px;
 /* or 156% */
@@ -99,13 +115,31 @@ line-height: 28px;
 
 color: rgba(255, 255, 255, 0.8);
 }
+.gard-image{
+    position: absolute;
+}
+.nav-text{
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.0777778px;
+
+color: rgba(244, 244, 244, 0.8);
+}
 .btn-view1{
     box-sizing: border-box;
-  background: #000;
+  background-color: #000;
   background-clip: padding-box;
   border: 2px solid transparent;
   border-radius: 2em;
   position: relative;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
 
 }
 .btn-view1::before{
@@ -118,7 +152,7 @@ color: rgba(255, 255, 255, 0.8);
     bottom: 0;
     left: 0;
     z-index: -1;
-    margin: -5px;
+    margin: -3px;
 
 }
 .main-right{
@@ -192,7 +226,6 @@ color: rgba(255, 255, 255, 0.8);
     margin: -5px;
 
 }
-}
 .con-arcade{
   box-sizing: border-box;
   background: #000;
@@ -217,6 +250,22 @@ color: rgba(255, 255, 255, 0.8);
 .footer-a{
     text-decoration: none;
     color: white;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+}
+.footer-b{
+    text-decoration: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+color: rgba(255, 255, 255, 0.8);
 }
 .playes{
     z-index: 9999;
@@ -267,4 +316,9 @@ z-index: 99999;    }
 .modal-btn{
     border: 2px solid #8600F0;
     border-radius: 30px;
+}
+.footer-text{
+    font-weight: 600;
+font-size: 16px;
+line-height: 26px;
 }
