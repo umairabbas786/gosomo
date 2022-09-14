@@ -322,3 +322,28 @@ z-index: 99999;    }
 font-size: 16px;
 line-height: 26px;
 }
+@media (max-width: 750px) {
+  .arcade-h1{
+font-weight: 800;
+font-size: 32px;
+line-height: 38px;
+/* or 119% */
+
+text-align: center;
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+  }
+  .arcade-p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.8);
+}
+}
