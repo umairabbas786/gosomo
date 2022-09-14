@@ -57,10 +57,19 @@ body{
 .game-h{
     font-style: normal;
     font-weight: 900;
-    font-size: 64px;
-    line-height: 74px;
+    font-size: 96px;
+    line-height: 96px;
     color: #fff;
    
+}
+.game-p{
+    font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+/* or 150% */
+
+
+color: #F4F4F4;
 }
 
 .game-h1{
@@ -77,9 +86,9 @@ body{
 }
 .arcade-h{
     color: #fff;
-    font-size: 45px;
+    font-size: 64px;
     font-weight: 900;
-    line-height: 45px;
+    line-height: 74px;
     letter-spacing: 0em;
     text-align: center;
 }
@@ -112,6 +121,20 @@ font-size: 18px;
 line-height: 28px;
 /* or 156% */
 
+
+color: rgba(255, 255, 255, 0.8);
+}
+.arcade-l{
+   
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+text-align: center;
 
 color: rgba(255, 255, 255, 0.8);
 }
@@ -322,6 +345,16 @@ z-index: 99999;    }
 font-size: 16px;
 line-height: 26px;
 }
+.arcade-j{
+    font-weight: 800;
+font-size: 48px;
+line-height: 56px;
+/* or 117% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
 @media (max-width: 750px) {
   .arcade-h1{
 font-weight: 800;
@@ -345,5 +378,49 @@ line-height: 22px;
 text-align: center;
 
 color: rgba(255, 255, 255, 0.8);
+}
+.arcade-h{
+    font-weight: 800;
+font-size: 32px;
+line-height: 38px;
+/* or 119% */
+
+text-align: center;
+}
+.arcade-l{
+    font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+text-align: center;
+
+}
+.game-h{
+    font-weight: 900;
+font-size: 40px;
+line-height: 32px;
+/* identical to box height, or 80% */
+
+letter-spacing: -0.5px;
+}
+.game-p{
+    font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+letter-spacing: -0.5px;
+}
+.arcade-j{
+    font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+text-align: center;
+letter-spacing: -0.5px;
+
+color: #FFFFFF;
 }
 }
