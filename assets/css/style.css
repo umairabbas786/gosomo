@@ -324,6 +324,13 @@ z-index: 99999;    }
 .modal-item{
     text-decoration: none;
     color: white;
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: rgba(244, 244, 244, 0.8);
 
 }
 .modal-item:hover{
@@ -339,6 +346,10 @@ z-index: 99999;    }
 .modal-btn{
     border: 2px solid #8600F0;
     border-radius: 30px;
+    width: 100%;
+    font-weight: 600;
+font-size: 14px;
+line-height: 22px;
 }
 .footer-text{
     font-weight: 600;
@@ -423,4 +434,14 @@ letter-spacing: -0.5px;
 
 color: #FFFFFF;
 }
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.modal-list{
+    padding: 0px !important;
+}
+.modal-body{
+    padding: 0px !important;
 }
