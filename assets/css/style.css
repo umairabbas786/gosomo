@@ -2,37 +2,8 @@
 body{
     /* background-image: linear-gradient(135deg,#8600F0,#000000 15%); */
     background-color: black;
-    font-family: 'Poppins', sans-serif;}
-    /* SCROLLBAR  */
-    html, body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-/* width */
-::-webkit-scrollbar {
-    width: 15px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #8600F0; 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: linear-gradient(rgb(77, 15, 154),rgb(52, 10, 242)); 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #7928b8; 
-  }
+    font-family: 'Poppins', sans-serif;
+}
 .purple{
     background: -webkit-linear-gradient(#8600F0, #FF3269);
     -webkit-background-clip: text;
@@ -155,7 +126,7 @@ color: rgba(244, 244, 244, 0.8);
     box-sizing: border-box;
   background-color: #000;
   background-clip: padding-box;
-  border: 2px solid transparent;
+  border: 0px solid transparent;
   border-radius: 2em;
   position: relative;
   font-family: 'Poppins';
