@@ -1,318 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Go Sumo</title>
-    <!-- FAVICON  -->
-    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
-    <!-- BOOTSTRAP  -->
-    <link rel="stylesheet" href="assets/css/bootstrap/dist/css/bootstrap.min.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- font awesome -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go Sumo</title>
+  <!-- FAVICON  -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+  <!-- BOOTSTRAP  -->
+  <link rel="stylesheet" href="assets/css/bootstrap/dist/css/bootstrap.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- font awesome -->
   <script src="https://kit.fontawesome.com/acc2c02c7c.js" crossorigin="anonymous"></script>
-  <script class="lazy" data-src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script class="lazy" data-src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <section class="ellipse-bg mb-5 mb-md-0">
+  <section class="ellipse-bg mb-5 mb-md-0">
     <!-- NAVBAR  -->
     <section class="nav-sec">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-            <div class="container-fluid pt-xl-4 pt-1 px-xl-5 px-4 mb-xl-0 mb-4">
-              <a class="d-none d-lg-block navbar-brand ms-lg-5" href="#"><img class="img-lg" src="assets/images/logo.png" alt=""></a>
-              <a class="d-block d-lg-none w-75 navbar-brand me-lg-5" href="#"><img class="w-50 img-lg" src="assets/images/logo.png" alt=""></a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid pt-xl-4 pt-1 px-xl-5 px-4 mb-xl-0 mb-4">
+          <a class="d-none d-lg-block  navbar-brand ms-lg-5" href="#"><img class="img-lg" src="assets/images/logo.png"
+              alt=""></a>
+          <a class="d-block d-lg-none w-75 navbar-brand me-lg-5" href="#"><img class="w-50 img-lg"
+              src="assets/images/logo.png" alt=""></a>
 
-              <button type="button" class="navbar-toggler" style="border: none;" data-bs-toggle="modal" data-bs-target="#exampleModal"> <span><i class="fa-solid fa-bars-staggered text-white fa-lg"></i></span></button>
+          <button type="button" class="navbar-toggler" style="border: none;" data-bs-toggle="modal"
+            data-bs-target="#exampleModal"> <span><img src="assets/images/nav-tog.png" alt=""></span></button>
 
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                          <a class="nav-link active nav-text mx-2" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link nav-text mx-1 text-white" href="#">Wallet</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link mx-1 nav-text text-white" href="#">Developers</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-white nav-text mx-1" href="#">Whitepaper</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-white nav-text mx-1" href="#">Blogs</a>
-                        </li>
-                        
-                      </ul>
-                      <button class="btn btn-view1 py-3 text-white me-lg-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Contact Us</button>
-                    </div>
-            </div>
-          </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                <a class="nav-link  nav-text mx-2" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text mx-1 text-white" href="mobile.html">Wallet</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-1 nav-text text-white" href="arcade.html">Developers</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link text-white nav-text mx-1" href="#">Blogs</a>
+              </li>
+
+            </ul>
+            <button class="btn btn-view1 py-3 text-white me-lg-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Contact Us</button>
+          </div>
+        </div>
+      </nav>
     </section>
     <!-- ARCADE GAMES  -->
     <section>
-        <div class="container-fluid text-center text-white pt-4"><br>
-            <h1 class="arcade-h">Play Arcade Games and</h1><img class="green-st d-xl-block d-none" src="assets/images/green.png" alt="">
-
-            <h1 class="arcade-h purple">Earn Rewards</h1><br>
-
-            <p class=" arcade-l">GoSumo is a web3 gaming platform for playing simple and fun mini-games. <br>
-              Get rewarded for your time, effort, and skills when you win against other players.</p><br><br><br>
-                    <img class="d-none d-lg-block mx-auto playes" src="assets/images/players.png" width="50%" alt="">
-                    <img class="d-block d-lg-none mx-auto playes" src="assets/images/players.png" width="100%" alt="">
-                <img class="w-100 image-rings d-none d-md-block" src="assets/images/players-low.png" alt="">
-                <img class="w-100 image-rings2 d-block d-lg-none" src="assets/images/players-low.png" alt="">
-                <img class="yellow-st d-xl-block d-none" src="assets/images/yellow.png" alt="">
+      <div class="container-fluid text-white pt-4 ps-4">
+        <div class="row pt-lg-5 ps-lg-5">
+          <div class="col-12 col-lg-6 pt-lg-5 ps-lg-5 d-xl-block d-none">
+            <img class="green1 d-xl-block d-none" src="assets/images/green1.png" alt="">
+            <img class="blue-star d-xl-block d-none" src="assets/images/blue.png" alt="">
 
 
+            <h1 class="arcade-h1 mt-3"> <span class="purple">Build</span>
+              Great Games. We handle the rest.</h1>
 
-        </div>
-    </section> 
-  </section>
 
-  <section class="p-4">
-    <img class="green1-st d-xl-block d-none" src="assets/images/green1.png" alt="">
-    <img class="blue-star-st d-xl-block d-none" src="assets/images/blue.png" alt="">
-    <img class="green2 d-xl-block d-none" src="assets/images/green1.png" alt="">
-    <img class="blue-star2 d-xl-block d-none" src="assets/images/blue.png" alt="">
-    <img class="green3 d-xl-block d-none" src="assets/images/green1.png" alt="">
-    <img class="blue-star3 d-xl-block d-none" src="assets/images/blue.png" alt="">
-    <div class="container con-arcade pb-xl-5 mt-5 ps-xl-5">
-        <div class="row p-xl-5 p-2 ">
-            <div class="col-md-6 mt-5 mb-xl-5">
-                <h1 class="purple game-h mt-md-5">1</h1>
-                <h3 class="text-white game-p">Enjoy quick-to-play<br> multiplayer games that are<br> easy to master</h3>
-                <h1 class="purple game-h mt-5">2</h1>
-                <h3 class="text-white game-p">Earn crypto while having fun<br> at the same time</h3>
-            </div>
-            <div class="col-md-6 d-none d-md-block">
-                <img class="w-75 mt-5" src="assets/images/machine-1.png" alt="">
-            </div>
-            <div class="col-md-6 mb-5">
-                <h1 class="purple game-h mt-xl-5 mt-4">3</h1>
-                <h3 class="text-white mb-5 game-p">Own in-game assets and<br> trade them as playable NFTs</h3>
-                <h1 class="purple game-h mt-5">4</h1>
-                <h3 class="text-white game-p">Audit our open source SDK to<br> ensure fair gaming and no<br> manipulative outcomes</h3>
-            </div>
-            <div class="col-md-6 d-md-block d-none">
-                <img class="w-75 mt-3" src="assets/images/machine-2.png" alt="">
-            </div>
-        </div>
-  </section>
-    </div>
-    <br><br><br>
-    <section class="my-5">
-      <div class="container-fluid text-center text-white mt-5 ellipse-bg">
-        <h1 class="arcade-j">Join the GoSumo</h1>
-        <h1 class="arcade-j">Community</h1>
-        <div class="my-5 d-xl-block d-none">
-            <a href=""><i class="fa text-white fa-twitter fa-4x mx-2" aria-hidden="true"></i></a>
-            <a href=""> <i class="fa-brands text-white fa-reddit fa-4x mx-3"></i></a>
-            <a href=""><i class="fa-brands text-white fa-discord fa-4x mx-3"></i></a>
-                <a href=""><i class="fa-brands text-white fa-telegram fa-4x mx-3"></i></a>
-        </div>
-        <div class="my-4 d-block d-xl-none">
-          <a href=""><i class="fa text-white fa-twitter fa-3x mx-2" aria-hidden="true"></i></a>
-          <a href=""> <i class="fa-brands text-white fa-reddit fa-3x mx-3"></i></a>
-          <a href=""><i class="fa-brands text-white fa-discord fa-3x mx-3"></i></a>
-              <a href=""><i class="fa-brands text-white fa-telegram fa-3x mx-3"></i></a>
-      </div>
-            <div class="d-flex justify-content-center px-3">
-                <img class="w-75 mt-5 d-xl-block d-none" src="assets/images/players-2.png" alt="">
-                <img class="w-100 mt-5 d-block d-xl-none" src="assets/images/players-2.png" alt="">
-            </div>
+            <p class=" arcade-p">GoSumo makes it simple for studios to launch play & earn casual mobile games with web3 functionalities.</p>
 
-    </div>
-    </section>
-    
+            <form class="form-input" action="post">
+              <input class="subs px-3" type="search" required placeholder="Enter your email address">
+              <button class="btn btn-view1 text-white subs-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal23" >Subscribe</button>
+              <p class="subs-p mt-3">Join our waitlist to receive early access to GoSumo.</p>
 
- 
+            </form>
+           
+
+          </div>
+          <div class="col-12 col-lg-6 pt-lg-5 ps-lg-5 d-block d-xl-none"><br>
+            <h1 class="arcade-h1 mt-3 d-inline"> <span class="purple">Build</span>
+              Great Games. We handle the rest.</h1><br><br>
+            <p class=" arcade-p d-inline">Game studios, take your game to the next level with Web3. GoSumo makes it
+              easier to get there..</p><br><br>
+              <form action="post">
+                <input class="subs px-3" type="search" required placeholder="Enter your email address">
+                <button class="btn btn-view1 text-white subs-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal23" >Subscribe</button>
+                <p class="subs-p mt-3">Join our waitlist to receive early access to GoSumo.</p>
   
+              </form>
+          </div>
+
+
+          <div class="col-12 col-lg-6 boy-pc">
+            <img class=" mx-auto playes" src="assets/images/main.png" width="100%" alt="">
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <!-- SECOND PAGE SECTIION  -->
+  <center>
+    <section class="mt-lg-5 px-lg-5">
+
+      <div class="pg-2 d-none d-md-block mx-lg-5">
+        <img class="yellow-star d-xl-block d-none" src="assets/images/yellow.png" alt="">
+
+        <div class="container-fluid pg-4 pos d-none d-md-block">
+          <div class="py-5 my-5">
+            <div class="text-center text-white p-md-5 m-md-5">
+              <p class="texting"><br>Publish games that integrate web3 tools<br> with low cost and ease through our simple<br> to use SDK.</p>
+            </div>
+            <div class="text-center text-white p-3 p-md-5 m-md-5">
+              <p class="texting"><br>No blockchain team or experience required<br> to add crypto settlements, rewards, and<br> NFTs to new or existing titles.</p>
+            </div>
+            <div class="text-center text-white p-3 p-md-5 m-md-5">
+              <p class="texting"><br>Generate much higher revenue for your<br> games with play & earn compared to <br> traditional models such as IAPs and Ads.</p>
+            </div>
+            <div class="text-center text-white p-3 p-md-5 m-md-5">
+              <p class="texting"><br>Eliminate players' fear of unfair gaming,<br> manipulative outcomes,
+                 and hidden<br> backends with our open source random<br> number SDK which can be audited and<br> reviewed by anyone.</p>
+            </div>
+            <img class="yellow-str d-xl-block d-none" src="assets/images/yellow.png" alt="">
+
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="d-block d-md-none p-3">
+      <img class="yellow-star-1" src="assets/images/yellow.png" alt="">
+
+      <div class="container pt-1 pg-2">
+        <div class="ellipse-bg">
+          <div class=" my-5">
+            <div class="text-center text-white p-md-5 m-md-5">
+              <p class="texting1"><br>Use our SDK to publish your blockchain<br> game on our platform with low cost
+                and<br> ease.</p>
+            </div>
+            <div class="text-center text-white p-3 p-md-5 m-md-5">
+              <p class="texting1"><br>No blockchain team or experience required<br> to add a transparent blockchain
+                layer to<br>
+                new or existing titles that supports crypto<br> settlements, rewards, and NFTs.</p>
+            </div>
+            <div class="text-center text-white p-3 p-md-5 m-md-5">
+              <p class="texting1"><br>Join our tribe and leverage our community<br> to acquire fast player acquisition
+                and<br> access to a wider audience</p>
+            </div>
+            <div class="text-center text-white p-3 p-md-5 m-md-5">
+              <p class="texting1"><br>Eliminate players fear of unfair gaming,<br> manipulative outcomes, and hidden<br>
+                backends
+                with our open source random<br> number SDK which can be audited and<br> reviewed by anyone.</p>
+            </div>
+            <div class="text-center text-white p-3 p-md-5 m-md-5">
+              <p class="texting1"><br>Unite with other game developers behind a<br> single game token to help generate
+                higher<br>
+                liquidity and greater long term value for you<br> and your players.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </center>
 
   <!-- FOOTER  -->
   <section>
     <!-- Footer -->
-<footer class=" text-lg-start bg-black text-muted footer-bg pt-5 px-3 px-xl-5">
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container-fluid px-lg-5 mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-12 col-md-3 mb-4">
-            <h6 class="text-uppercase fw-bold mb-5">
-                <a class="navbar-brand foot-img  d-block d-lg-none ms-2 my-5" href="#"><img src="assets/images/logo.png" width="40%" alt=""></a>
-                <a class="navbar-brand foot-img d-none d-lg-block ms-1" href="#"><img src="assets/images/logo.png" width="40%" alt=""></a>
+    <footer class=" text-lg-start bg-black text-muted footer-bg pt-5 px-3 px-xl-5">
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container-fluid px-lg-5 mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-12 col-md-3 mb-4">
+              <h6 class="text-uppercase fw-bold mb-5">
+                <a class="navbar-brand foot-img d-block d-lg-none ms-2 my-5" href="#"><img src="assets/images/logo.png"
+                    width="40%" alt=""></a>
+                <a class="navbar-brand foot-img d-none d-lg-block ms-1" href="#"><img src="assets/images/logo.png"
+                    width="40%" alt=""></a>
 
 
-            </h6>
-            <p class="text-white footer-text">
-             Contact Us:<br>support@gosumo.io
-            </p>
-          </div>
-  
-          <!-- Grid column -->
-          <div class=" col-0 col-xl-4 mx-auto mb-4">
-            <!-- Links -->
-            
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-6 col-xl-2 ms-xl-5 mb-4 text-white">
-          
-            <p>
-              <a href="#!" class="footer-a">Home</a>
-            </p>
-            <p>
-              <a href="#!" class="footer-a">Wallet</a>
-            </p>
-            <p>
-              <a href="#!" class="footer-a">Develepors</a>
-            </p>
-            
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-6 col-lg-3 col-xl-1 mb-md-0 mb-4 text-white">
-            <!-- Links -->
-            <p>
-                <a href="#!" class="footer-a ">Whitepaper</a>
+              </h6>
+              <p class="text-white footer-text">
+                Contact Us:<br>support@gosumo.io
               </p>
+            </div>
+
+            <!-- Grid column -->
+            <div class=" col-0 col-xl-4 mx-auto mb-4">
+              <!-- Links -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-6 col-xl-2 ms-xl-5 mb-4 text-white">
+
+              <p>
+                <a href="#!" class="footer-a">Home</a>
+              </p>
+              <p>
+                <a href="#!" class="footer-a">Wallet</a>
+              </p>
+              <p>
+                <a href="#!" class="footer-a">Develepors</a>
+              </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-6 col-lg-3 col-xl-1 mb-md-0 mb-4 text-white">
+              <!-- Links -->
+             
               <p>
                 <a href="#!" class="footer-a">Blogs</a>
               </p>
               <p>
                 <a href="#!" class="footer-a">Contact Us</a>
               </p>
+            </div>
+            <!-- Grid column -->
           </div>
-          <!-- Grid column -->
-        </div>
-        <hr>
+          <hr>
 
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links  -->
-    <!-- Copyright -->
-    <div class="row">
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+      <!-- Copyright -->
+      <div class="row">
         <div class=" col-12 col-xl-6 ">
-            <div class="p-xl-4 ps-2 text-white d-lg-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.05);">
-                <span> <a class="footer-b ms-xl-4" href="#">© 2022 All Rights Reserved.</a> </span><br><br>
-                <span class="me-5 me-xl-0"><a class="footer-b" href="#">Privacy Policy</a> </span>
-                <span><a class="footer-b ms-auto" href="#">Terms & Conditions</a></span>
-               
-              </div></div>
-             
-        
-        <div class="col-xl-6 mt-4 d-xl-flex justify-content-end mb-5">
-          <a href="#"><img class="mx-2" src="assets/images/Instagram.png" alt=""></a>
+          <div class="p-xl-4 ps-2 text-white d-lg-flex justify-content-between"
+            style="background-color: rgba(0, 0, 0, 0.05);">
+            <span> <a class="footer-b ms-xl-4" href="#">© 2022 All Rights Reserved.</a> </span><br><br>
+           
 
-            <a href="#"><i class="fa fa-twitter text-white mx-2" aria-hidden="true"></i></a>
-            <a href="#"> <i class="fa fa-linkedin text-white mx-2 me-5" aria-hidden="true"></i></a>
+          </div>
         </div>
-    </div>
-    
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+
+
+        <div class="col-xl-6 mt-4 d-xl-flex justify-content-end mb-5">
+          <a href="#"><img class="mx-2" src="assets/images/v3.svg" alt=""></a>
+
+          <a href="#"><img class="mx-2" src="assets/images/vector.svg" alt=""></a>
+          <a href="#"><img class="mx-2" src="assets/images/v4.svg" alt=""></a>
+          <a href="#"><img class="mx-2 me-xl-5" src="assets/images/v2.svg" alt=""></a>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
   </section>
   <div id="exampleModal" class="modal fade bg-black">
     <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content bg-black">
-            <div class="modal-header px-5">
-              <a class="navbar-brand foot-img nav-ing mt-1" href="#"><img src="assets/images/logo.png" width="100%" alt=""></a>
-              <button type="button" class="btn-close mb-1 pb-2" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark fa-2x"></i></button>
-            </div><hr class="line-breaker">
-            <div class="modal-body container-fluid mt-3">
-              
-              <ul class="modal-list">
-                <li class="nav-item">
-                  <a class="modal-item m-3" href="#">Home</a>
-                  <hr class="line-breaker">
-                </li>
-                <li class="nav-item">
-                  <a class="modal-item m-3" href="#">Wallet</a>
-                  <hr class="line-breaker">
-
-                </li>
-                <li class="nav-item">
-                  <a class="modal-item m-3" href="#">Developers</a>
-                  <hr class="line-breaker">
-                </li>
-                <li class="nav-item">
-                  <a class="modal-item m-3" href="#">Whitepaper</a>
-                  <hr class="line-breaker">
-
-                </li>
-                <li class="nav-item">
-                  <a class="modal-item m-3" href="#">Blogs</a>
-                  <hr class="line-breaker">
-
-                </li>
-                
-              </ul>            </div>
-
-            <div class="modal-footer d-flex justify-content-center">
-              <button class="btn btn-view modal-btn py-3 text-white btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Contact Us</button>
-
-            </div>
+      <div class="modal-content bg-black">
+        <div class="modal-header  px-5">
+          <a class="navbar-brand foot-img nav-ing mt-1" href="#"><img src="assets/images/logo.png" width="100%"
+              alt=""></a>
+          <button type="button" class="btn-close mb-1 pb-2" data-bs-dismiss="modal" aria-label="Close"><i
+              class="fa-solid fa-xmark fa-2x pb-2"></i></button>
         </div>
+        <hr class="line-breaker">
+        <div class="modal-body container-fluid mt-3">
+
+          <ul class="modal-list">
+            <li class="nav-item">
+              <a class="modal-item m-3" href="index.html">Home</a>
+              <hr class="line-breaker">
+            </li>
+            <li class="nav-item">
+              <a class="modal-item m-3" href="mobile.html">Wallet</a>
+              <hr class="line-breaker">
+
+            </li>
+            <li class="nav-item">
+              <a class="modal-item m-3" href="arcade.html">Developers</a>
+              <hr class="line-breaker">
+            </li>
+          
+            <li class="nav-item">
+              <a class="modal-item m-3" href="#">Blogs</a>
+              <hr class="line-breaker">
+
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="modal-footer d-flex justify-content-center">
+          <button class="btn btn-view modal-btn py-3 text-white btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Contact Us</button>
+
+        </div>
+      </div>
     </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content mod-wid p-xl-5 p-3">
-      <div class="modal-header">
-        <h5 class="modal-title asd" id="exampleModalLabel">Contact Us</h5>
-        <button type="button" class="btn-lose" data-bs-dismiss="modal" aria-label="Close"><img src="assets/images/close.png" alt=""></button>
+  </div>
+  <!-- Button trigger modal -->
+
+
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content mod-wid p-xl-5 p-3">
+        <div class="modal-header">
+          <h5 class="modal-title asd" id="exampleModalLabel">Contact Us</h5>
+          <button type="button" class="btn-lose" data-bs-dismiss="modal" aria-label="Close"><img src="assets/images/close.png" alt=""></button>
+        </div>
+        <div class="modal-body">
+          <form action="post">
+        <input class="email-inp px-3" required type="email" placeholder="enter your email address">
+        <input type="text" required class="msg-inp px-3 pt-2 mt-5" placeholder="Thankyou for reaching out. Write your message here">
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-senddd me-auto" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">Send</button>
+         
+        </form>
+        </div>
       </div>
-      <div class="modal-body">
-        <form action="post">
-      <input class="email-inp px-3" required type="email" placeholder="enter your email address">
-      <input type="text" required class="msg-inp px-3 pt-2 mt-5" placeholder="Thankyou for reaching out. Write your message here">
-      </div>
-      <div class="modal-footer">
-        <button type="submit" class="btn btn-senddd me-auto" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">Send</button>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content mod-widd p-5">
        
-      </form>
+        <div class="modal-body">
+          <div class="d-flex justify-content-center">       <img class="succes" src="assets/images/succes.png" alt="">
+          </div>
+          <div class="text-center">
+            <p class="succes-p">
+              Thankyou for reaching out!<br>
+      Redirecting you to home...
+             </p>
+          </div>
+        
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content mod-widd p-5">
-     
-      <div class="modal-body">
-        <div class="d-flex justify-content-center">       <img class="succes" src="assets/images/succes.png" alt="">
+  <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel23" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content mod-widd p-5">
+       
+        <div class="modal-body">
+          <div class="d-flex justify-content-center">       <img class="succes" src="assets/images/succes.png" alt="">
+          </div>
+          <div class="text-center">
+            <p class="succes-p">
+              Thankyou for subscribing!<br>
+  You’ll receive early access to Gosumo as we roll out...
+             </p>
+          </div>
+        
         </div>
-        <div class="text-center">
-          <p class="succes-p">
-            Thankyou for reaching out!<br>
-    Redirecting you to home...
-           </p>
-        </div>
-      
       </div>
     </div>
   </div>
-</div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-      $(window).on('load', function() {
-          $('#exampleModal').modal('show');
-      });
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
   </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+  <script type="text/javascript">
+    $(window).on('load', function () {
+      $('#exampleModal').modal('show');
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>

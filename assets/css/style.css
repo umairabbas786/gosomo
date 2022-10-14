@@ -178,6 +178,9 @@ line-height: 24px;
     margin: -3px;
 
 }
+.btn-view1:hover{
+    border: none !important;
+}
 .main-right{
     background-size: cover;
     max-height: 85vh;
@@ -648,6 +651,10 @@ margin-left: 50px;
 padding-top: 50px;
 padding-left: 110px;
 }
+.inner-img{
+    width: 395px;
+                          height: 359px;
+}
 .earn-heading{
 
 
@@ -677,41 +684,10 @@ line-height: 27px;
 color: rgba(255, 255, 255, 0.8);
 
 }
-.inner-box{
-    width: 375px;
-height: 339px;
 
 
-background: #FFFFFF;
-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.04);
-border-radius: 24px;
-
-}
-.earn-h{
-    font-weight: 500;
-font-size: 20px;
-line-height: 27px;
-}
-.purple-box{
-    width: 375px;
-height: 40px;
-left: calc(50% - 375px/2 - 311.5px);
-top: 1135px;
-
-background: #194967;
-padding-top: 10px;
-}
-.compound{
 
 
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height, or 133% */
-
-
-color: #FFFFFF;
-}
 .comp-img{
     width: 14px;
 height: 14px;
@@ -857,6 +833,10 @@ letter-spacing: 0.2px;
 
 color: #FFFFFF;
 }
+.pay-img{
+    width: 257.79px;
+height: 234px;
+}
 .user-based-p{
     left: 10.76%;
 right: 58.68%;
@@ -877,8 +857,8 @@ mix-blend-mode: normal;
 opacity: 0.83;
 }
 .pay-box{
-    width: 270.79px;
-height: 250px;
+    width: 285.79px;
+height: 265px;
 left: 286px;
 top: 2599px;
 
@@ -1192,6 +1172,9 @@ border-right: 0.1px solid rgb(237, 235, 235);
 border-bottom: 0.1px solid rgb(230, 229, 229);
 
 }
+
+
+
 .msg-inp{
     border: none;
 border-right: 0.1px solid rgb(237, 235, 235);
@@ -1237,6 +1220,46 @@ line-height: 27px;
 
 color: #030204;
 }
+.subs{
+    width: 495px;
+height: 60px;
+left: 108px;
+top: 507px;
+
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.12);
+border-radius: 40px;
+}
+.subs::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 1;
+  }
+  .subs-btn{
+    width: 146px;
+height: 56px;
+
+border-radius: 32px;
+margin-left: -150px;
+  }
+  .subs-p{
+    font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+color: rgba(255, 255, 255, 0.4);
+  }
+  .subs-frm{
+    margin-top: 550px;
+    margin-left: 107px;
+  }
 }
 
 @media only screen and (max-width: 1195px){
@@ -1327,63 +1350,11 @@ background: linear-gradient(92.89deg, #8600F0 27.61%, #FF3269 119.53%);
 mix-blend-mode: normal;
 border-radius: 13.72px;
     }
-    .inner-box{
-        width: 214.38px;
-height: 194.15px;
-left: 80.6px;
-top: 1415.64px;
-
-background: #FFFFFF;
-box-shadow: 0px 5.71667px 22.8667px rgba(0, 0, 0, 0.04);
-border-radius: 13.72px;
-    }
-    .earn-h{
-        width: 26px;
-        height: 16.03px;
-        left: 174.92px;
-        top: 1429.38px;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 11.4333px;
-        line-height: 15px;
-        /* or 135% */
-        
-        
-        color: #0F0D13;
-
-    }
-    .purple-box{
-        width: 214px;
-height: 22px;
-left: calc(50% - 214px/2 + 0.5px);
-top: 1459px;
-
-background: #194967;
-    }
-    .compound{
-        width: 40px;
-height: 10px;
-left: calc(50% - 40px/2 + 5.29px);
-top: calc(50% - 10px/2 + 0.45px);
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 6.86px;
-line-height: 9px;
-/* identical to box height, or 133% */
-
-
-color: #FFFFFF;
-    }
-    .comp-img{
-        width: 8px;
-height: 8px;
-left: 82px;
-top: 7.02px;
-    }
+   
+.inner-img{
+    width: 214.38px;
+height: 194.15px
+}   
     .earn-coin{
         width: 27px;
 height: 13.02px;
@@ -1547,6 +1518,10 @@ line-height: 26px;
 letter-spacing: 0.2px;
 
 color: #FFFFFF;
+    }
+    .pay-img{
+        width: 220px;
+height: 198.88px;
     }
     .user-based-p{
         left: 9.6%;
@@ -1975,4 +1950,55 @@ height: 282px;
     
     color: #03102C;
 }
+.subs{
+    width: 343px;
+    height: 52px;
+    left: 16px;
+    top: 412px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+border-radius: 40px;
+}
+.subs::placeholder {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 1;
+  }
+  .subs-btn{
+    width: 109px;
+height: 48px;
+
+background: #030204;
+border-radius: 32px;
+margin-left: -117px;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+color: #FFFFFF;
+  }
+  .subs-p{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    /* identical to box height, or 200% */
+    
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.4);
+  }
+  .subs-frm{
+  align-self: center;
+  }
+}
+.form-input input {
+    color:white;
 }
