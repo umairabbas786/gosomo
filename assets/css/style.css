@@ -320,7 +320,7 @@ color: rgba(244, 244, 244, 0.8);
 }
 .line-breaker{
     color: white;
-    border-top: 2px solid grey;
+    border-top: 1px solid grey;
 }
 .modal-btn{
     border: 2px solid #8600F0;
